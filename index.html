@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Way of the Ninja</title>
+		<link rel="shortcut icon" href="temp.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<nav>
+	    <div class="nav-wrapper blue-grey darken-2 z-depth-3">
+	    	<img id="logo-pic" src="brand.png" ><a href="/" class="brand-logo"><b>Revolution Studios</b></a>
+	    	<ul id="nav-mobile" class="right hide-on-med-and-down">
+	        	<li id = "summary" class="active"><a onclick = "action('summary')" href="#">Summary</a></li>
+	        	<li id = "gameplay"><a onclick = "action('gameplay')" href="#">Gameplay</a></li>
+	        	<li id = "about"><a onclick = "action('about')" href="#">About Us</a></li>
+	        	<li id = "download"><a class="cyan darken-2 waves-effect waves-light modal-trigger btn" href="#modal1">Play Now!</a></li>
+			</ul>
+	    </div>
+	</nav>
+	<main>
+
+
+	</main>
+
+	<footer class="page-footer blue-grey darken-2">
+
+		<div class="footer-copyright">
+			<div class="container">
+			© 2021 Revolution Studios
+			<a class="grey-text text-lighten-4 right" onclick="M.toast({html: 'Our email has been copied to clipboard! 🎉'});navigator.clipboard.writeText('RevolutionStudios12@gmail.com');" href="#!">Contact Us</a>
+
+			<a class="grey-text text-lighten-4 right" href="https://www.instagram.com/revo.lutionstudios/"><i class="fa fa-instagram"></i> revo.lutionstudios &nbsp|&nbsp&nbsp</a>
+		
+		</div>
+	</div>
+	</footer>
+
+
+
+
+	<!-- Modal Structure -->
+	  <div id="modal1" class="modal modal-fixed-footer ">
+	    <div class="modal-content blue-grey darken-1 white-text text-darken-1">
+	      <h4>Download Instructions</h4>
+	      <p><b>- This download will install a zipped folder containing all the files required for the game to run.</b></p>
+	      <p><b>&nbsp&nbsp&nbsp(NOTE: Only supports Windows OS)</b></p>
+	      <p><b>- After the GameFiles zip is finished downloading, unzip the file to your desired location.</b></p>
+	      <p><b>- To run the game simply find the executable application named "CS 113 Project" and have fun!</b></p>
+	    </div>
+	    <div class="modal-footer blue-grey darken-2">
+	      <a href="GameFiles.zip" class="modal-close cyan darken-2 waves-effect waves-light btn">Download Now</a>
+	    </div>
+	  </div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="default.js"></script>
+
+</html>

@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+  }
+
+  main {
+    flex: 1 0 auto;
+    background-color: #607d8b !important;
+  }
+
+  footer{
+  	padding-top: 0px !important;
+  }
+
+  #logo-pic{
+  	padding-left: 3vw;
+  	padding-top: 0.5vh;
+  	width: auto !important;
+  	max-height: 95% !important;
+  	object-fit: contain !important;
+  }
+
+#hero-pic{
+  max-height: 8vh;
+}
+
+.btn {
+  text-transform: unset !important;
+}
+
+.parallax{
+  z-index: 0 !important;
+ }
+
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
